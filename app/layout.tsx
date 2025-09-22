@@ -3,10 +3,10 @@ import PageTransition from "@/components/page-transition";
 import StairTransition from "@/components/StairTransition";
 import StarField from "@/components/StarField";
 import TranslateButton from "@/components/TranslateButton";
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
-
 const jetBrainsMono = JetBrains_Mono({
   subsets: ["latin"],
   variable: "--font-jetbrains-mono",
@@ -44,6 +44,7 @@ export default function RootLayout({
         <Header />
         <StairTransition />
         <PageTransition>{children}</PageTransition>
+        <Analytics />
         {/*         <TranslateButton /> */}
       </body>
     </html>
