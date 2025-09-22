@@ -26,6 +26,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Dario's Portfolio",
+    images: "/og.png",
     description:
       "Welcome to my portfolio website! I am a full-stack developer with expertise in Next.js, Nest.js, PostgreSQL, MySQL and more. Explore my projects that showcase elegant interfaces, robust back-end systems and efficient database management. Let's collaborate on your next extraordinary web development project.",
   },
