@@ -44,7 +44,7 @@ export default function RootLayout({
         <Header />
         <StairTransition />
         <PageTransition>{children}</PageTransition>
-        <TranslateButton />
+        {/*         <TranslateButton /> */}
       </body>
     </html>
   );
